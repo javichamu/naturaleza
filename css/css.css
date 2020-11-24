@@ -1,0 +1,82 @@
+*{
+    
+}
+body.inicio{
+    background-image: url("../img/nature1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body.quien_soy{
+    background-image: url("../img/nature2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+body.trabajos{
+    background-image: url("../img/nature3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body.contacto{
+    background-image: url("../img/nature4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+div.h{
+    width: 50%;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform:translate(-50% ,-50%);
+    
+}
+div.u{
+    position: absolute;
+    right: 1%;
+}
+
+div ul li{
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding: 3px 20px 3px 20px;
+}
+
+a:visited{
+    color: white;
+}
+nav{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+nav img{
+    float: left;
+    margin-right: 5px;
+    opacity: 0.6;
+    filter: grayscale(1);
+}
+img.logo{
+    width: 5%;
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+
+
+}
+a{
+    text-decoration: none;
+}
+a.index{
+    background-color: black;
+}
